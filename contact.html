@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property='og:type' content='website'>
+    <meta property='og:title' content='Masha solution'>
+    <meta property='og:url' content='#'>
+    <meta property='og:description'
+      content='Маша солюшн ХХК Танд мөрөөдлийн вэб сайтыг бүтээж өгнө.'>
+    <meta property="og:image" content="https://pon-design.netlify.app/img/ogp.png">
+    <meta name="description"
+      content=" Вэб сайт шинээр бүтээх, гар утасны апликейшн болон бусад төрлийн программыг танд бүтээж өгнө. 
+      Шинэлэг дизайн, хэрэглэгчийн сэтгэлийг татхуйц вэб хуудас бүтээхээ бид амлаж байна. 
+      " />
+    <title>MASHA SOLUTION</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41b1f8d62e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="img/icon-192x192.png">
+    <link rel="apple-touch-icon" type="image/png" href="img/apple-touch-icon-180x180.png">
+    <link rel="icon" href="img/favicon.ico">
+  </head>
+
+<body>
+
+  <header class="l-header">
+    <div class="l-header__logo">
+      <h1 class="logo">
+        <a href="." class="logo__link"><img class="logo__img" src="img/logo.svg" alt="PON DESIGN"></a>
+      </h1>
+    </div>
+    <div class="l-header__nav">
+      <nav class="p-global-nav">
+        <ul class="p-global-nav__list">
+          <li class="p-global-nav__item"><a class="p-global-nav__link" href="news.html">news</a></li>
+          <li class="p-global-nav__item"><a class="p-global-nav__link" href="service.html">service</a></li>
+          <li class="p-global-nav__item"><a class="p-global-nav__link" href="works.html">works</a></li>
+          <li class="p-global-nav__item"><a class="p-global-nav__link" href="company.html">company</a></li>
+          <li class="p-global-nav__item"><a class="p-global-nav__link" href="recruit.html">recruit</a></li>
+          <li class="p-global-nav__item"><a class="p-global-nav__link" href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <button type="button" class="c-btn-menu js-btn-menu">
+      <span class="c-btn-menu__line"></span>
+    </button>
+  </header>
+
+  <div class="p-sub-hero">
+    <div class="p-sub-hero__inner">
+      <h2 class="c-heading-primary c-heading-primary--white">contact<span class="c-heading-primary__sub">Асуулт асуух</span>
+      </h2>
+    </div>
+  </div>
+
+  <div class="p-breadcrumb">
+    <div class="l-inner">
+      <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="p-breadcrumb__list">
+        <!-- 1つめ -->
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="p-breadcrumb__item">
+          <a itemprop="item" href="." class="p-breadcrumb__link">
+            <span itemprop="name">HOME</span>
+          </a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <!-- 2つめ -->
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="p-breadcrumb__item">
+          <span itemprop="item" href="contact.html">
+            <span itemprop="name">contact</span>
+          </span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </div>
+  </div>
+
+  <main class="l-contents">
+    <section class="p-contact-form l-section">
+      <div class="p-contact-form__inner l-inner">
+        <div class="p-contact-form__lead">
+          Web сайт бүтээх, түүний үнийн санал авах талаар<br class="u-sp-only"> та холбогдоорой.
+        </div>
+        <div class="p-contact-form__body">
+
+          <form class="c-form">
+            <div class="c-form__item">
+              <div class="c-form__title">Асуултын төрөл<span class="c-form__require">*Заавал бөглөх</span></div>
+              <span class="c-form__radio">
+                <input type="radio" id="type01" name="type" value="お仕事のご依頼・ご相談" checked><label
+                  for="type01">Вэб сайт бүтээхтэй холбоотой асуудал</label></span>
+              <span class="c-form__radio"><input type="radio" id="type02" name="type" value="お見積りのご依頼"><label
+                  for="type02">Үнийн санал авах</label></span>
+              <span class="c-form__radio"><input type="radio" id="type03" name="type" value="採用について"><label
+                  for="type03">Сургалтын талаар</label></span>
+              <span class="c-form__radio"><input type="radio" id="type04" name="type" value="その他"><label
+                  for="type04">Бусад</label></span>
+            </div>
+
+            <div class="c-form__item">
+              <label for="name" class="c-form__title">Нэр<span class="c-form__require">*Заавал бөглөх</span></label>
+              <input type="text" id="name" name="name" required class="c-form__input">
+            </div>
+            <div class="c-form__item">
+              <label for="company" class="c-form__title">Компаний нэр<span class="c-form__require">*Заавал бөглөх</span></label>
+              <input type="text" id="company" name="company" required class="c-form__input">
+            </div>
+            <div class="c-form__item">
+              <label for="email" class="c-form__title">Мэйл хаяг<span class="c-form__require">*Заавал бөглөх</span></label>
+              <input type="email" id="email" name="email" required class="c-form__input">
+            </div>
+            <div class="c-form__item">
+              <label for="tel" class="c-form__title">Утасны дугаар<span class="c-form__note"></span></label>
+              <input type="tel" id="tel" name="tel" class="c-form__input">
+            </div>
+
+            <div class="c-form__item">
+              <label for="comment" class="c-form__title">Агуулга</label>
+              <textarea id="comment" name="comment" placeholder="Асуух зүйлынхээ агуулгыг тодорхой оруулна уу?"
+                class="c-form__textarea"></textarea>
+            </div>
+
+            
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer class="l-footer">
+    <nav class="l-footer-nav">
+      <ul class="l-footer-nav__list">
+        <li class="l-footer-nav__item"><a class="l-footer-nav__link" href="index.html">HOME</a></li>
+        <li class="l-footer-nav__item"><a class="l-footer-nav__link" href="service.html">үйлчилгээ</a></li>
+        <li class="l-footer-nav__item"><a class="l-footer-nav__link" href="works.html">хийсэн ажлууд</a></li>
+        <li class="l-footer-nav__item"><a class="l-footer-nav__link" href="company.html">бидний талаар</a></li>
+        <li class="l-footer-nav__item"><a class="l-footer-nav__link" href="recruit.html">сургалт</a></li>
+        <li class="l-footer-nav__item"><a class="l-footer-nav__link" href="contact.html">холбоо барих</a></li>
+      </ul>
+    </nav>
+    <div class="c-copyright">
+      <a href="." class="c-copyright__link">&copy;MASHA solution</a>
+    </div>
+  </footer>
+  <div class="c-page-top">
+    <span class="c-page-top__link"><i class="fas fa-arrow-up" aria-hidden="true"></i></span>
+  </div>
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/swiper/swiper-bundle.js"></script>
+  <script src="js/polyfill/stickyfill.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
